@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+  font-family: 'Poppins', sans-serif;
+ background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://wallpapercave.com/w/wp1857438.jpg);
+  height: 100vh;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+.container {
+    padding: 50px;
+  background-color: #5f6f3a;
+}
+
+input[type=text], input[type=password], textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: orange;
+  outline: none;
+}
+ div {
+            padding: 10px 0;
+         }
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.bookbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.bookbtn:hover {
+  opacity: 1;
+}
+
+</style>
+</head>
+<body>
+<form>
+  <div class="container">
+  <center>  <h1> Camp & Tell Reservation Form</h1> </center>
+  <hr>
+  <label><b> Firstname </b></label>
+<input type="text" name="firstname" placeholder= "Firstname" size="15" required />
+<label><b> Middlename:</b> </label>
+<input type="text" name="middlename" placeholder="Middlename" size="15" required />
+<label><b> Lastname:</b> </label>
+<input type="text" name="lastname" placeholder="Lastname" size="15"required />
+<label>
+<b>Phone :</b>
+</label>
+<input type="text" name="country code" placeholder="Country Code"  value="+91" size="2"/>
+<input type="text" name="phone" placeholder="phone no." size="10"/ required>
+<div>
+<label>
+<b>Package :</b>
+</label>
+
+<select>
+<option value="Package">Package</option>
+<option value="Daytime">Daytime</option>
+<option value="Nightime">Nightime</option>
+</select>
+</div>
+<div>
+<label>
+<b>Camping Type :</b>
+</label><br>
+<input type="radio" value="Solo" name="Camp" checked > Solo
+<input type="radio" value="Duo" name="Camp"> Duo
+<input type="radio" value="Group" name="Camp"> Group
+</div>
+<div>
+<label>
+<b>Total Group Member Count :</b>
+</label>
+
+<select>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+</select>
+</div>
+
+
+ <label for="Check in"><b>Check in</b></label>
+ <input type="text" placeholder="mm/dd/yy" name="Check in" required>
+
+    <label for="Check out"><b>Check out</b></label>
+    <input type="password" placeholder="mm/dd/yy" name="Check out" required>
+
+
+
+    <b>Suggestions</b> :
+    <textarea cols="80" rows="5" placeholder="Comments" value="Comments" required>
+    </textarea>
+    <button type="submit" class="bookbtn">Book now</button>
+</form>
+</body>
+</html>
