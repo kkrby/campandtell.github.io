@@ -6,7 +6,7 @@
 
 body{
 	font-family: 'Poppins', sans-serif;
-	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(1.jpg);
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://wallpapercave.com/w/wp1857438.jpg);
 	height: 150vh;
 	background-position: center;
 	background-size: cover;
@@ -50,7 +50,7 @@ h1{
 
 .card{
 	width: 400px;
-	height: 70vh;
+	height: 55vh;
 	display: inline-block;
 	border-radius: 10px;
 	padding: 15px 25px;
@@ -59,7 +59,9 @@ h1{
 	margin: 10px 15px;
 	background-position: center;
 	background-size: cover;
-	font-family: 'Poppins', sans-serif;	
+	font-family: 'Poppins', sans-serif;
+
+		
 }
 
 .card1{
@@ -78,31 +80,6 @@ h1{
 }
 
 .card4{
-	font-family: 'Poppins', sans-serif;
-	background-color: #fff;
-}
-
-.card4{
-	font-family: 'Poppins', sans-serif;
-	background-color: #fff;
-}
-
-.card5{
-	font-family: 'Poppins', sans-serif;
-	background-color: #fff;
-}
-
-.card6{
-	font-family: 'Poppins', sans-serif;
-	background-color: #fff;
-}
-
-.card7{
-	font-family: 'Poppins', sans-serif;
-	background-color: #fff;
-}
-
-.card8{
 	font-family: 'Poppins', sans-serif;
 	background-color: #fff;
 }
